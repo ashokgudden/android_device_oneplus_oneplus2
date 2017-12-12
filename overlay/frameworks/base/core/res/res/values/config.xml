@@ -414,21 +414,21 @@
     <!-- Keep chosen default camera app pinned in memory for faster launching -->
     <bool name="config_pinnerCameraApp">true</bool>
 
-     <!-- Whether notify fingerprint client of successful cancelled authentication -->
-     <bool name="config_notifyClientOnFingerprintCancelSuccess">true</bool>
+     <!-- Whether notify fingerprint client of successful cancelled authentication 
+     <bool name="config_notifyClientOnFingerprintCancelSuccess">true</bool> -->
 
     <!-- Default value for proximity check on screen wake
          NOTE ! - Enable for devices that have a fast response
-         proximity sensor (ideally < 300ms) -->
+         proximity sensor (ideally < 300ms) 
     <bool name="config_proximityCheckOnWake">true</bool>
-    <bool name="config_proximityCheckOnWakeEnabledByDefault">true</bool>
+    <bool name="config_proximityCheckOnWakeEnabledByDefault">true</bool> -->
 
-    <!-- Proximity check timeout -->
-    <integer name="config_proximityCheckTimeout">100</integer>
+    <!-- Proximity check timeout 
+    <integer name="config_proximityCheckTimeout">100</integer> -->
  
-     <!-- doze always on -->
-    <bool name="config_enableDozeAlwaysOn">true</bool>
+     <!-- doze always on 
+    <bool name="config_enableDozeAlwaysOn">true</bool> -->
 
-    <!-- Should proximity check also affect fingerprint reader-->
-    <bool name="config_proximityCheckOnFingerprintWake">true</bool>
+    <!-- Should proximity check also affect fingerprint reader
+    <bool name="config_proximityCheckOnFingerprintWake">true</bool> -->
 </resources>
