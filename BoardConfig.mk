@@ -203,7 +203,7 @@ CONFIG_EAP_PROXY_AKA_PRIME := true
 CONFIG_EAP_PROXY_MSM8994_TARGET := true
 
 # Enable dexpreopt to speed boot time
-WITH_DEXPREOPT := true
+WITH_DEXPREOPT := false
 DONT_DEXPREOPT_PREBUILTS := true
 
 # Recovery
