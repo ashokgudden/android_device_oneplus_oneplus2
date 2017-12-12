@@ -250,9 +250,6 @@ PRODUCT_PACKAGES += \
     libOmxQcelp13Enc \
     libOmxSwVencMpeg4 \
     libOmxSwVencHevc \
-    libOmxVdec \
-    libOmxVdecHevc \
-    libOmxVenc \
     libOmxVidcCommon \
     libstagefrighthw \
     libstagefright_soft_flacdec
